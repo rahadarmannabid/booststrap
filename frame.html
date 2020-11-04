@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame{
+            height:265px;
+            width:400px;
+            border:10px solid yellow;
+            border-radius: 5px;
+            position:relative;
+            margin:10px;
+            overflow:hidden;
+
+        }
+        .photo-frame .photo img {
+            width: 100%;
+        }
+
+        .photo-frame:hover .photo img{
+            transform:scale(1.2);
+            transform:rotate(360deg);
+            transition: transform 5s;
+
+
+        }
+
+        .description {
+            position:absolute;
+            height:267px;
+            width:400px;
+            top:0;
+            display:none ;
+        }
+
+        .photo-album{
+
+            display:flex;
+            flex:wrap;
+
+        }
+        .photo-frame:hover .description {
+            display:block;
+            background-color:rgba(228, 228, 209, 0);
+            color:greenyellow;
+
+        }
+
+        .photo-frame:hover .description h1{
+            display:block;
+            background-color:rgb(131, 7, 180);
+            color:rgb(107, 15, 228);
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>My Photo Album</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="3.jpg" alt="">
+                <div class="description">
+                    <h1>
+                        Tiger Nest
+                    </h1>
+                    <p>
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum vel enim, soluta quam quo fuga atque ut accusamus est omnis asperiores sunt nam inventore perferendis non modi porro. Facere, reiciendis?
+
+                    </p>
+            
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="3.jpg" alt="">
+                <div class="description">
+                    <h1>
+                        Tiger Nest
+                    </h1>
+                    <p>
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum vel enim, soluta quam quo fuga atque ut accusamus est omnis asperiores sunt nam inventore perferendis non modi porro. Facere, reiciendis?
+
+                    </p>
+            
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="3.jpg" alt="">
+                <div class="description">
+                    <h1>
+                        Tiger Nest
+                    </h1>
+                    <p>
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum vel enim, soluta quam quo fuga atque ut accusamus est omnis asperiores sunt nam inventore perferendis non modi porro. Facere, reiciendis?
+
+                    </p>
+            
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="3.jpg" alt="">
+                <div class="description">
+                    <h1>
+                        Tiger Nest
+                    </h1>
+                    <p>
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum vel enim, soluta quam quo fuga atque ut accusamus est omnis asperiores sunt nam inventore perferendis non modi porro. Facere, reiciendis?
+
+                    </p>
+            
+
+                </div>
+
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="3.jpg" alt="">
+                <div class="description">
+                    <h1>
+                        Tiger Nest
+                    </h1>
+                    <p>
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum vel enim, soluta quam quo fuga atque ut accusamus est omnis asperiores sunt nam inventore perferendis non modi porro. Facere, reiciendis?
+
+                    </p>
+            
+
+                </div>
+
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="3.jpg" alt="">
+                <div class="description">
+                    <h1>
+                        Tiger Nest
+                    </h1>
+                    <p>
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum vel enim, soluta quam quo fuga atque ut accusamus est omnis asperiores sunt nam inventore perferendis non modi porro. Facere, reiciendis?
+
+                    </p>
+            
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
